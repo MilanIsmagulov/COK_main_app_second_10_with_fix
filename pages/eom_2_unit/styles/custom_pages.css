@@ -1,0 +1,179 @@
+/* ВАЖНО - В данном файле все классы должны быть с припиской _custom */
+.line_block_custom{
+    border-top: 1px solid red;
+}
+.with_underline_custom{
+    padding-bottom: 35px;
+    font-size: clamp(18px, 1.5vw, 25px);
+    border-bottom: 2px solid rgba(191, 235, 221, 1);
+}
+.table_plc_custom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.table_element_custom b{
+    display: flex;
+    width: 70%;
+}
+.table_element_custom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 25px;
+    width: clamp(300px, 25vw, 500px);
+    height: clamp(300px, 35vw, 400px);
+    min-height: 350px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid rgba(191, 235, 221, 1);
+}
+.blue_table_element_custom{
+    justify-content: flex-start;
+    color: #fff;
+    background-color: rgba(2, 94, 161, 1);
+    border: 3px solid rgba(2, 94, 161, 1);
+    border-radius: 25px;
+    width: clamp(300px, 70%, 1060px);
+}
+.third_row_table_custom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bold_another_color_custom{
+    width: 100% !important;
+    padding-bottom: 35px;
+    color: rgba(191, 235, 221, 1);
+}
+.full_img_custom{
+    width: 100%;
+}
+.text2{
+    flex-grow: 1 !important;
+}
+.center_div_custom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.five_eleven_table_custom{
+    width: 100% !important;
+    text-align: center;
+    font-size: clamp(12px, 1.25vw, 18px);
+    border-collapse: collapse;
+}
+.text2:has(.five_eleven_table_custom){
+    margin-right: 25px;
+    overflow-x: scroll;
+}
+.nine_eleven_underline_custom{
+    margin-top: -25px;
+    height: 1px;
+    background-color: black;
+}
+.math_equation_container_custom{
+    margin-top: 25px !important;
+    border: 2px solid #3cba94;
+    width: 45% !important;
+    margin: 0 auto;
+    border-radius: 15px;
+    background: linear-gradient(156deg, rgba(255,255,255,1) 0%, rgb(228, 242, 255) 100%);
+}
+
+.tvelve_ten_wrapper_custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -50px;
+    padding: 60px;
+    padding-bottom: 120px;
+    background-color: #d6dce5;
+}
+.secondtype_custom{
+    background-color: #fff;
+}
+.tvelve_ten_img_wrapper_custom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.tvelve_ten_img_wrapper_custom p{
+    margin: 0 !important;
+    margin-bottom: 25px !important;
+}
+.tvelve_ten_wrapper_custom p{
+    margin: 45px;
+    margin-top: -25px;
+}
+.tvelve_ten_wrapper_custom:last-child{
+    padding-bottom: 60px !important;
+}   
+@media(max-width: 1450px){
+    .table_plc_custom{
+        justify-content: space-evenly;
+    }
+    .blue_table_element_custom{
+        height: 440px;
+    }
+}
+@media(min-width: 2000px){
+    p{
+        margin-bottom: 50px;
+    }
+}
+@media(max-width: 1070px){
+    .tvelve_ten_wrapper_custom {
+        padding: 40px;
+        padding-right: 60px;
+        flex-direction: column;
+        margin-bottom: 25px !important;
+    }
+    #content > div:nth-child(3) > div > div.tvelve_ten_wrapper_custom.secondtype_custom > p{
+        order: 10;
+    }
+    .tvelve_ten_img_wrapper_custom img{
+        width: 300px;
+    }
+}
+@media(max-width: 856px){
+    .table_plc_custom{
+        justify-content: space-evenly;
+    }
+    .third_row_table_custom{
+        justify-content: center;
+        flex-wrap: wrap;
+        min-height: 700px;
+    }
+    .blue_table_element_custom{
+        height: 400px;
+    }
+}
+@media(max-width: 500px){
+    .table_element_custom b{
+        width: 100%;
+    }
+    .table_element_custom{
+        min-height: 400px;
+    }
+}
+
+.answer_div p{
+    text-align: justify !important;
+}
+
+#dynamic-content{
+    width: 100% !important;
+    align-items: center !important;
+}
+
+.description_w_input_2{
+    width: 100% !important;
+}
+
+.img_with_sgn{
+    background-image: initial !important;
+}

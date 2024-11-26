@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="24"
+   viewBox="0 -960 960 960"
+   width="24"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="radio_button.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="34.875"
+     inkscape:cx="8.5734767"
+     inkscape:cy="12.043011"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="m 480.00001,-166.02151 q -65.15054,0 -122.45162,-24.72581 -57.30107,-24.7258 -99.68817,-67.1129 -42.3871,-42.3871 -67.1129,-99.68817 -24.72581,-57.30108 -24.72581,-122.45162 0,-65.15053 24.72581,-122.45161 24.7258,-57.30107 67.1129,-99.68817 42.3871,-42.3871 99.68817,-67.1129 57.30108,-24.72581 122.45162,-24.72581 65.15053,0 122.45161,24.72581 57.30107,24.7258 99.68817,67.1129 42.3871,42.3871 67.1129,99.68817 24.72581,57.30108 24.72581,122.45161 0,65.15054 -24.72581,122.45162 -24.7258,57.30107 -67.1129,99.68817 -42.3871,42.3871 -99.68817,67.1129 -57.30108,24.72581 -122.45161,24.72581 z m 0,-62.7957 q 105.18279,0 178.18279,-73 73,-73 73,-178.1828 0,-105.18279 -73,-178.18279 -73,-73 -178.18279,-73 -105.1828,0 -178.1828,73 -73,73 -73,178.18279 0,105.1828 73,178.1828 73,73 178.1828,73 z m 0,0 q -105.1828,0 -178.1828,-73 -73,-73 -73,-178.1828 0,-105.18279 73,-178.18279 73,-73 178.1828,-73 105.18279,0 178.18279,73 73,73 73,178.18279 0,105.1828 -73,178.1828 -73,73 -178.18279,73 z"
+     id="path2"
+     style="fill:#999999;fill-opacity:1;stroke:#999999;stroke-width:0.999998;stroke-opacity:1" />
+</svg>

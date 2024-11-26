@@ -1,0 +1,35 @@
+/* ВАЖНО - В данном файле все классы должны быть с припиской _custom */
+
+
+#dynamic-content{
+    width: 100% !important;
+    align-items: center !important;
+}
+
+.description_w_input_2{
+    width: 100% !important;
+}
+
+.img_with_sgn{
+    background-image: initial !important;
+}
+
+@media(max-width: 1000px){
+    .field{
+        min-width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+@media(max-width: 800px){
+    .drag4-inner{
+        flex-direction: column !important;
+    }
+    .field-col{
+        min-height: 200px !important;
+        min-width: 200px !important;
+    }
+    .field{
+        min-width: 100% !important;
+    }
+}

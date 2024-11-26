@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+
+html{
+    background-color: #fff;
+    height: 100%;
+}
+body{
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+header{
+    font-weight: 800;
+    background-color: black;
+    color: white;
+}
+main{
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-grow: 1;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.772);
+    color: black;
+    text-align: center;
+    padding: 0.55em 0;
+    z-index: 1500;
+}
+.text_of_question h2{
+    font-weight: 600;font-size: 20px;
+}
+.main_wrapper{
+    display: flex;
+    width: 100%;
+    margin: 0 !important;
+}
+.shield{
+    width: 550px;
+    height: 650px;
+    margin: 10px;
+    background: url(../content/parts/background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.first_row, .second_row{
+    background: url(../content/parts/reyka.png);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.avtomat_button{
+    background: url(../content/parts/avtomat_vykl.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    z-index: 1000;
+}
+.on{
+    background: url(../content/parts/avtomat_vkl.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.first_pribor_first_contacts{
+    background-color: #ffffff00 !important;
+    justify-content: space-around !important;
+    align-items: flex-end;
+    height: 45px !important;
+    background: url(../content/parts/avtomat1.png) !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+}
+.first_pribor_first_contacts > div.contact__2_3 > div{
+    margin-bottom: 6px;
+    margin-right: 12px;
+}
+.first_pribor_first_contacts > div.contact__2_4 > div{
+    margin-bottom: 6px;
+    margin-right: 6px;
+}
+.first_pribor_first_contacts > div.contact__2_5 > div{
+    margin-bottom: 6px;
+    margin-left: 12px;
+}
+.first_pribor_second_contacts{
+    background-color: #ffffff00 !important;
+    justify-content: space-around !important;
+    align-items: flex-start;
+    height: 50px;
+    background: url(../content/parts/avtomat3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.first_pribor_second_contacts > div.contact__2_3 > div{
+    margin-top: 0;
+    margin-right: 12px;
+}
+.first_pribor_second_contacts > div.contact__2_4 > div{
+    margin-top: 0;
+    margin-right: 6px;
+}
+.first_pribor_second_contacts > div.contact__2_5 > div{
+    margin-top: 0;
+    margin-left: 12px;
+}
+.second_pribor_first_contacts{
+    height: 25px !important;
+    background: url(../content/parts/pusk1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.second_pribor_fourth_contacts{
+    justify-content: flex-end !important;
+}
+.main_frame, .main_image{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+}
+.main_image{
+    flex-direction: column;
+}
+.main_image img{
+    width: 60%;
+    min-width: 550px;
+    max-height: 100%;
+}
+.main_frame{
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start !important;
+    justify-content: center;
+}
+.main_wrapper {
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+.main_frame {
+    font-size: 25px;
+}
+.first_row, .second_row, .third_row {
+    margin-top: 10px;
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first_row{
+    min-height: 300px;
+}
+.second_row{
+    margin-top: 10px;
+    min-height: 300px;
+}
+.el_motor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(196, 196, 196);
+    border-radius: 10px 10px 0 0;
+}
+.first_contact, .second_contact, .third_contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+.motor{
+    width: 270px;
+}
+.motor img{
+    width: 100%;
+}
+.first_contact{
+    justify-content: flex-end;
+}
+.image_sign{
+    padding: 25px;
+    text-align: center;
+}
+.third_contact{
+    background-repeat: repeat;
+    justify-content: flex-start;
+}
+.motor {
+    font-size: 25px;
+}
+.main_image {
+    order: -1 !important;
+    font-size: 25px;
+}
+.second_row{
+    display: flex;
+}
+.second_pribor{
+    margin-left: -150px;
+}
+.electr_img{
+    position: absolute;
+    display: none;
+    margin-right: -138px;
+    z-index: 9999;
+}
+.electr_img.vibrate {
+    display: block;
+    animation: vibrate 0.5s infinite;
+}
+@keyframes vibrate {
+    0% { transform: translate(0); }
+    25% { transform: translate(2px, -2px); }
+    50% { transform: translate(-2px, 2px); }
+    75% { transform: translate(2px, 2px); }
+    100% { transform: translate(0); }
+}
+.pult{
+    background-color: rgba(48, 48, 48, 0);
+    width: auto;
+    margin-bottom: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    /* margin-top: 180px; */
+    height: 285px;
+    position: relative;
+}
+.first_pult_contact > div{
+    margin-bottom: 0px;
+}
+.second_pult_contact > div{
+    margin-bottom: 0px;
+}
+.third_pult_contact > div{
+    margin-bottom: 0px;
+}
+.fourth_pult_contact > div{
+    margin-bottom: 0px;
+}
+.first_pult_contact{
+    text-align: center;
+}
+.second_pult_contact{
+    text-align: center;
+}
+.third_pult_contact{
+    text-align: center;
+}
+.fourth_pult_contact{
+    text-align: center;
+}
+.stop_button, .start_button{
+    z-index: 1000;
+}
+.first_pult_contact > div{
+    margin-bottom: 8px;
+}
+.second_pult_contact > div{
+    margin-bottom: 8px;
+}
+.third_pult_contact > div{
+    margin-bottom: 8px;
+}
+.fourth_pult_contact > div{
+    margin-bottom: 8px;
+}
+#stop_button_1, #start_button_1{
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+#movable123123{
+    background-color: rgba(255,255,0,.8)
+}
+#b433434{
+    background-color: rgba(0,255,0,.8)
+}
+#sdaasd-2{
+    background-color: rgba(170,0,0,.8)
+}
+.first_pult_contact{
+    opacity: 1;
+    text-align: center;
+    background: url(../content/parts/input_btn.png) !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+}
+.second_pult_contact{
+    opacity: 1;
+    text-align: center;
+    background: url(../content/parts/input_btn_2.png) !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+}
+.third_pult_contact{
+    opacity: 1;
+    text-align: center;
+    background: url(../content/parts/input_btn.png) !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+}
+.fourth_pult_contact{
+    opacity: 1;
+    text-align: center;
+    background: url(../content/parts/input_btn_2.png) !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+}
+#stop_button_1{
+    cursor: pointer;
+    border: 0;
+    background: url(../content/parts/stop_btn.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 100px;
+    margin-bottom: 13px;
+}
+#stop_button_1:active{
+    background: url(../content/parts/stop_btn_active.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#start_button_1{
+    cursor: pointer;
+    border: 0;
+    background: url(../content/parts/start_btn.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 100px;
+    margin-bottom: 13px;
+}
+#start_button_1:active{
+    background: url(../content/parts/start_btn_active.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cont{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.651);
+}
+.second_pribor_first_contacts, .second_pribor_second_contacts, .second_pribor_third_contacts, .second_pribor_fourth_contacts{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.contacts{
+    background: url(../content/parts/motor_contact.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    margin-right: 14px;
+}
+
+.pink_subtitle{
+    line-height: 5px;
+}
+
+.number_of_step{
+    margin-bottom: 5px;
+}
+
+.second_pribor_main_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 100px;
+    background-color: gray;
+    z-index: 5;
+}
+.traversa{
+    font-size: 18px;
+    width: 95%;
+    background-color: yellow;
+    text-align: center;
+}
+.second_pribor_first_contacts{
+    background-color: rgb(78, 76, 89);
+    border-radius: 5px 5px 0 0;
+}
+.second_pribor_fourth_contacts{
+    background-color: rgb(78, 76, 89);
+    border-radius: 0 0 5px 5px;
+}
+.second_pribor_second_contacts, .second_pribor_third_contacts{
+    background-color: rgb(197, 197, 197);
+}
+.second_pribor_first_contacts > div.contact__2_1 > div{
+    margin-top: 1px;
+    margin-left: 8px;
+}
+.second_pribor_first_contacts > div.contact__2_2 > div{
+    margin-top: 1px;
+    margin-right: 9px;
+}
+.second_pribor_second_contacts{
+    height: 32px;
+    background: url(../content/parts/pusk1_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 10px !important;
+    background-color: rgb(159, 164, 166);
+    align-items: flex-end;
+}
+.second_pribor_second_contacts > div.contact__2_3 > div{
+    margin-left: 8px;
+    margin-bottom: -2px;
+}
+.second_pribor_second_contacts > div.contact__2_4 > div{
+    margin-left: 7px;
+    margin-bottom: -2px;
+}
+.second_pribor_second_contacts > div.contact__2_5 > div{
+    margin-left: 7px;
+    margin-bottom: -2px;
+}
+.second_pribor_second_contacts > div.contact__2_6 > div{
+    margin-right: 7px;
+    margin-bottom: -2px;
+}
+.second_pribor_main_body{
+    height: 104px;
+    background: url(../content/parts/pusk2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.in_line{
+    filter: brightness(70%);
+}
+.traversa{
+    height: 50px;
+    background: url(../content/parts/pusk2_traversa.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 21px;
+}
+.pult_plc{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: clamp(10px,1.2vw,50px) !important;
+    margin-bottom: 25px;
+}
+.second_pribor_fourth_contacts{
+    background: url(../content/parts/pusk3_2.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25px;
+}
+.second_pribor_fourth_contacts > div > div{
+    margin-right: 8px;
+}
+.second_pribor_third_s_contacts{
+    height: 37px;
+    background: url(../content/parts/pusk3.png);
+    background-size: 100%;
+    background-position: center;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+}
+.second_pribor_third_s_contacts > div.contact__2_3 > div{
+    margin-bottom: 0;
+    margin-left: 9px;
+}
+.second_pribor_third_s_contacts > div.contact__2_4 > div{
+    margin-bottom: 0;
+}
+.second_pribor_third_s_contacts > div.contact__2_5 > div{
+    margin-bottom: 0;
+}
+.second_pribor_third_s_contacts > div.contact__2_6 > div{
+    margin-bottom: 0;
+    margin-right: 8px;
+}
+#buttons_div_2{
+    width: 100% !important;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+button {
+    height: 50px;
+    margin-left: 10px;
+    border: 0;
+    background: rgb(0, 114, 192);
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 2px;
+}
+#control_button_4{
+    margin-right: 15px;
+}
+@media(max-width: 1300px){
+    .main_wrapper{
+        flex-direction: column !important;
+    }
+    .main_frame, .main_image{
+        margin-top: 0 !important;
+        width: 100%;
+    }
+    .main_image{
+        order: -1;
+    }
+}
+#drawingArea {
+    position: relative;
+}
+.disable-movable{
+    pointer-events: none;
+}
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  10%, 30%, 50%, 70%, 90% { transform: translate(-10px, 0); }
+  20%, 40%, 60%, 80% { transform: translate(10px, 0); }
+  100% { transform: translate(0, 0); }
+}
+/* Класс для применения анимации тряски */
+.shake {
+  animation: shake .5s;
+}
+.volume_pic{
+    z-index: 10000;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.volume_pic button{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(105, 126, 151);
+}
+.volume_pic button img{
+    width: 50px !important;
+    height: 50px !important;
+}
+@keyframes rattling {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(1px, -1px); }
+    50% { transform: translate(0, -2px); }
+    75% { transform: translate(-1px, -1px); }
+    100% { transform: translate(0, 0); }
+}
+.motor.animate {
+    animation: rattling 0.1s infinite !important;
+}
+/* Disabled button style */
+button:disabled {
+    opacity: 0.5 !important;
+    cursor: not-allowed !important;
+}
+/* Shake animation */
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-3px, 0); }
+    50% { transform: translate(3px, 0); }
+    75% { transform: translate(-3px, 0); }
+    100% { transform: translate(0, 0); }
+}
+.main_frame.shake {
+    animation: shake 0.5s !important;
+}
+
+.pink_subtitle{
+    font-size: 25px !important;
+}
+
+.text2{
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 25px !important;
+}
+
+.subtitle_wrapper{
+    margin: 0 !important;
+}
+
+#movable123123{
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+#b433434{
+    margin-left: 3px;
+    margin-bottom: 2px;
+}
+
+#sdaasd-2{
+    margin-right: 3px;
+    margin-bottom: 2px;
+}
+
+#control_button_3{
+    opacity: 1 !important;
+}
+
+.content-wrapper{
+    overflow-x: hidden !important;
+}

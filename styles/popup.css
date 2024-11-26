@@ -1,0 +1,121 @@
+/* Popup window */
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #00000050;
+    top: 0;
+    left: 0;
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.popup_text{
+    display: flex;
+    height: 500px;
+    overflow-y: auto;
+    scroll-snap-align: start;
+    padding: 15px;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 20px;
+}
+.popup_body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+}
+.popup_content {
+    background-color: white;
+    color: black;
+    max-width: 700px;
+    border-radius: 15px;
+    padding: 25px;
+}
+.popup_header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    color: rgb(255, 113, 117);
+    font-size: 25px;
+}
+.popup_header a{
+    margin-left: 25px;
+}
+.close_popup {
+    font-size: 25px;
+    margin-right: 5px;
+}
+.close_popup:active {
+    color: rgb(255, 113, 117);
+}
+.popup:target{
+    opacity: 1;
+    visibility: visible;
+}
+.popup_content_header{
+    color: #ff7175;
+    margin: 15px;
+    margin-left: 0px;
+}
+.popup_tex_content{
+    margin-left: 0px;
+}
+.key_word_text{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px;
+}
+.key_word_text span{
+    font-weight: 800;
+}
+.popup_method_list li{  
+    margin: 15px;
+}
+.popup_method_list li ul{
+    margin-left: 25px;
+}
+.popup_method_list li::marker{
+    font-size: 30px;
+    color: rgb(0, 112, 192);
+}
+.list_second_level li{
+    font-size: 20px;
+    list-style-type: none;
+}
+.list_second_level > li::marker{
+    color: black;
+    content: '-  ';
+    margin-right: 25px;
+}
+*::-webkit-scrollbar-track
+{   
+    border-radius: 10px;
+	background-color: #dadada;
+	border-radius: 25px;
+    padding: 15px;
+    width: 25px;
+}
+.popup::-webkit-scrollbar {
+    width: 0;
+}
+*::-webkit-scrollbar
+{
+    border-radius: 10px;
+	width: 10px;
+	background-color: #F5F5F5;
+    padding: 15px;
+    width: 15px;
+}
+*::-webkit-scrollbar-thumb
+{   
+	background-color: rgba(0, 0, 0, .2);
+	border-radius: 10px;
+	background-image: rgba(0, 0, 0, .2);
+    width: 15px;
+}

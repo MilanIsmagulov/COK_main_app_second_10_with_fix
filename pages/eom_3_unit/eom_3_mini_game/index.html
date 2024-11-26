@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./script/Sortable.js" defer></script>
+    <script src="../../../data/data_main_p.js"></script>
+    <script src="./script/create-elements.js" defer></script>
+    <script src="./script/main.js" defer></script>
+    <script src="../../../data/data_eom_3_mg.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.1.2/dist/svg.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.draggable.js@3.0.3/dist/svg.draggable.min.js"></script>
+    <link type="Image/x-icon" href="../../../content/favicon.ico" rel="icon">
+    <title id="main_title_mini_game_1"></title>
+</head>
+<body>
+    <header>
+        <div class="header_wrap">
+            <div class="header-title">
+                <h1 id="mini_game_header_text_1">Упс, похоже надо проверить data_main_p.js!!!
+                </h1>
+            </div>
+            <div class="header_links">
+                <a href="../../../index.html">На главную</a>
+            </div>
+        </div>
+    </header>
+    <div class="main_wrap">
+        <div class="question_wrap">
+            <div class="text_wrap">
+                <!-- <p class="welcome_text">Перед вами задания разных уровней сложности. Кликните на карточку, чтобы перейти к заданию. Выберите вариант (варианты) ответа и нажмите кнопку «Ответить»</p> -->
+                <p class="welcome_text">Перед вами задания разных уровней сложности. У вас 10 попыток, чтобы получить призовые 1550 очков. Кликните на карточку, чтобы перейти к заданию. Выберите вариант (варианты) ответа и нажмите кнопку «Ответить»</p>
+            </div>
+            <div class="score_wrap" >
+                <div class="count_point">
+                    <p>Количество очков</p>
+                    <p class="points" id="score">0</p>
+                </div>
+                <div class="count_try">
+                    <p>Количество попыток</p>
+                    <p class="tryes" id="lives">10</p>
+                </div>
+                <input type="button" id="button_results" class="button_results btn_closed" value="Смотреть результаты">
+                </input>
+            </div>
+        </div>
+        <div class="logo_wrap">
+            <img src="content/logo_of_profi.png" alt="logo">
+        </div>
+    </div>
+    <div id="popup_window" class="popup closed"></div>
+    <div id="imageLoupe" class="modalLoupe">
+        <div style="display: flex; justify-content: center;">
+            <div class="modalLoupe-content-text" id="modalText">
+                Некоторый текст
+            </div>
+            <img class="modalLoupe-content-img" id="modalImage">
+            <video controls class="modalLoupe-content-vid" id="modalVideo"></video>
+            <span class="close imageLoupeClose">&times;</span>
+        </div>
+    </div>
+</body>
+</html>
