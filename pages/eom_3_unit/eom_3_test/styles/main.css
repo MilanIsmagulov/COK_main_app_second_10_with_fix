@@ -1107,7 +1107,7 @@ line{
 .popup_content_type_10 {
     background-color: white;
     color: black;
-    min-width: 400px;
+    min-width: 200px !important;
     max-width: 1700px;
     min-height: 60%;
     border-radius: 25px;
@@ -1115,6 +1115,7 @@ line{
 }
 .popup_inner_content_type_10{
     padding: 15px;
+    font-size: clamp(16px, 1.5vw, 25px) !important;
 }
 .popup_header_type_10{
     display: flex;

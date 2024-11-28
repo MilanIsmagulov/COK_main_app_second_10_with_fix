@@ -1,1 +1,7 @@
 /* ВАЖНО - В данном файле все классы должны быть с припиской _custom */
+
+@media(max-width: 500px){
+    #content__litera_btn_2{
+        margin-top: 150px;
+    }
+}

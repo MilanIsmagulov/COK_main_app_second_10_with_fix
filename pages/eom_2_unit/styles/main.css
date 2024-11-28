@@ -42,7 +42,7 @@ footer {
     z-index: 10000;
 }
 p{
-    text-align: left;
+    text-align: left !important;
     text-indent: 0%;
     margin-bottom: 25px;
     font-size: clamp(18px, 1.5vw, 25px);
@@ -399,7 +399,7 @@ table.iksweb td:first-child{
     color: black;
     overflow-y: auto;
     overflow-x: hidden;
-    z-index: 1000;
+    z-index: 10001 !important;
 }
 .popup_window div{
     font-size: 25px;
@@ -1131,7 +1131,7 @@ ul li div{
     z-index: 1200;
 }
 .popup_window{
-    z-index: 1800 !important;
+    z-index: 12001 !important;
 }
 :root{
     --v: 25px;
@@ -1328,7 +1328,7 @@ line{
 .popup_content_type_10 {
     background-color: white;
     color: black;
-    min-width: 400px;
+    min-width: 200px !important;
     max-width: 1700px;
     min-height: 60%;
     border-radius: 25px;
@@ -1336,6 +1336,7 @@ line{
 }
 .popup_inner_content_type_10{
     padding: 15px;
+    font-size: clamp(16px, 1.5vw, 25px) !important;
 }
 .popup_header_type_10{
     display: flex;
