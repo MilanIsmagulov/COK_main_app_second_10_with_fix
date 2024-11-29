@@ -140,6 +140,8 @@ function checkParagraph(){
                 document.getElementById('control_button_3').style.display = 'none';
                 nextBtn.classList.remove('gray_dis');
                 nextBtn.disabled = false;
+                backWardBtn.classList.remove('gray_dis');
+                backWardBtn.disabled = false;
                 window.alert("Вы потратили все попытки для прохождения задания, кнопка 'Ответить' заблокирована!!!");
             }
             // ЭТО ДЛЯ ОШИБОК

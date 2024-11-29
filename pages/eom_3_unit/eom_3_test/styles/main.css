@@ -660,11 +660,12 @@ ul li div{
 .item4 {
     list-style-image: none;
     text-align: center;
+    font-size: 20px;
     margin: 10px;
     border: 1px solid #0070c0;
     background-color: #0070c0;
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
     border-radius: 25px;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
     padding: 10px;
@@ -1023,7 +1024,7 @@ line{
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
 }
 .popup_window{
-    z-index: 1800 !important;
+    z-index: 18000 !important;
 }
 .startColumn > div{
     border-radius: 25px var(--r) var(--r) 25px;

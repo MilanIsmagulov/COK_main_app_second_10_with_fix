@@ -2124,3 +2124,7 @@ line{
 .answers_btn form div p{
     text-align: start !important;
 }
+
+p:has(i){
+    text-align: center !important;
+}
