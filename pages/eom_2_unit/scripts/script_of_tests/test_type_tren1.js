@@ -371,7 +371,7 @@ function svgTest(drawingArea3) {
                 localStorage.setItem(`attempts2_${15}`, `${attempts2}`);
                 var attempts3 = localStorage.getItem(`attempts2_${number2}`);
                 if(attempts3 == 0){
-                    window.alert("Вы потратили все попытки для прохождения задания, кнопка 'Повторить' заблокированна!!!");
+                    window.alert("Вы потратили все попытки для прохождения задания, кнопка 'Повторить' заблокирована!!!");
                     document.querySelector('#control_button_3').disabled = true;
                     document.querySelector('#control_button_3').style.display = 'none';
                     backWardBtn.classList.remove('gray_dis');
@@ -391,7 +391,7 @@ function svgTest(drawingArea3) {
             localStorage.setItem(`attempts2_${15}`, `${attempts2}`);
             var attempts3 = localStorage.getItem(`attempts2_${number2}`);
             if(attempts3 == 0){
-                window.alert("Вы потратили все попытки для прохождения задания, кнопка 'Повторить' заблокированна!!!");
+                window.alert("Вы потратили все попытки для прохождения задания, кнопка 'Повторить' заблокирована!!!");
                 document.querySelector('#control_button_3').disabled = true;
                 document.querySelector('#control_button_3').style.display = 'none';
                 backWardBtn.classList.remove('gray_dis');
