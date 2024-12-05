@@ -1,6 +1,6 @@
 // Логика, которая зависит от данных
 // Инициализация текущего индекса страницы
-let currentPageIndex = 1;
+let currentPageIndex = 16;
 let currentTestIndex = null;
 const answerButton = document.getElementById('control_button_2');
 const restartButton = document.getElementById('control_button_3');
